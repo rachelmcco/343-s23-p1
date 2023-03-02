@@ -25,3 +25,24 @@
   form{
     color: white;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .container {
+    flex-direction: column;
+    }
+    
+    .image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+    
+    .paragraph {
+    width: 100%;
+    }
+    
+    h2 {
+    text-align: center;
+    }
+    }
