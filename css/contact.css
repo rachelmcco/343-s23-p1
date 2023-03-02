@@ -1,0 +1,27 @@
+/* contact.css -- Styling the about page of website
+ * author: Rachel McCoy
+ */
+ 
+.container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* style the image */
+  .image {
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  /* style the paragraph */
+  .paragraph {
+    width: 50%;
+  }
+
+  h2{
+    text-align: left;
+  }
+
+  form{
+    color: white;
+  }

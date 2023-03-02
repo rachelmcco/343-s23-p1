@@ -1,0 +1,83 @@
+/* index.css -- Styling the front page of website
+ * author: Rachel McCoy
+ */
+
+
+ nav {
+    border-bottom: 1px solid #ccc;
+    border-Top: 1px solid #ccc;
+    background-color: #AF65CD;
+    color: #AF65CD;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+ 
+  body{
+    background-color: #AF65CD;
+  }
+
+  header{
+    color: white;
+    font-size: larger;
+    
+     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #AF65CD;
+    color: #AF65CD;
+    font-size: 14px;
+  }
+
+
+  img {
+    width: 50%;
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+  }

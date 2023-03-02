@@ -1,0 +1,43 @@
+/* Exec.css -- Styling the Exec page of website
+ * author: Rachel McCoy
+ */
+ * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+
+  }
+
+  .exec {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .exec img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .exec h2 {
+    margin-top: 0;
+    color: #AF65CD;
+  }
+
+  p{
+    color: #AF65CD;;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #AF65CD;
+    font-size: 14px;
+  }

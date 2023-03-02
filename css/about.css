@@ -1,0 +1,21 @@
+/* about.css -- Styling the about page of website
+ * author: Rachel McCoy
+ */
+
+
+p{
+    font: 200px;
+}
+
+img {
+    width: 80%;
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+    width: 10vh;
+  }

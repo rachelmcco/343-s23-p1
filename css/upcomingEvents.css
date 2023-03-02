@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+    
+  }
+  
+  li {
+    margin-bottom: 0px;
+    color: black;
+  }
+  
+  .event {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .event h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .event p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .event .date {
+    font-weight: bold;
+  }
