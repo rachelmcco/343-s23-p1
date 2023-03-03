@@ -21,10 +21,16 @@
 
   h2{
     text-align: left;
+    font-size: 30px;
   }
 
   form{
     color: white;
+    font-size: 30px;
+  }
+
+  input{
+    font-size: 25px;
   }
 
 
