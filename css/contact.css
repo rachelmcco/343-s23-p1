@@ -9,13 +9,14 @@
 
   /* style the image */
   .image {
-    width: 50%;
-    margin-right: 20px;
+    width: 650px;
+    margin-right: 30px;
   }
 
   /* style the paragraph */
   .paragraph {
-    width: 50%;
+    width: 1200px;
+    margin-right: 40px;
   }
 
   h2{
