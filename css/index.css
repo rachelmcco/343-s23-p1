@@ -131,6 +131,24 @@ hr{
   nav a {
   padding: 8px 12px;
   }
+
+  nav {
+    display: none;
+  }
+  
+  .menu-toggle {
+    display: block;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-toggle:focus + nav {
+    display: block;
+  }
+  
   }
   
   
